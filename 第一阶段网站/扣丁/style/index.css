@@ -1,0 +1,284 @@
+.head{
+  height: 100px;
+  
+}
+.head img{
+  float: left;
+  margin-top: 26px;
+}
+form{
+  float: right;
+  margin-top: 26px;
+}
+.tt{
+  width: 243px;
+  height: 48px;
+  font-size: 12px;
+  border: 1px solid #e0e0e0;
+  text-indent: 9px;
+  float: left;
+  outline: none;
+}
+.td{
+  width: 50px;
+  height: 50px;
+  border: 1px solid #e0e0e0;
+  background: url(../img/shou.jpg) no-repeat center center;
+}
+.nv{
+  height: 59px;
+  background-color: #303030;
+}
+.nv ul{
+  height: 59px;
+  padding-left: 10px;
+  box-sizing: border-box;/*怪异盒子 */
+}
+.nv ul li{
+  float: left;
+  width: 119px;
+  height: 59px;
+  text-align: center;
+  line-height: 59px;
+  font-size: 14px;
+  border-right: 1px solid #4a4a4a;
+}
+.nv a{
+  color: #f6f8f7;
+}
+.nv .last{
+  border-right: 0;
+}
+.banner img{
+  width: 100%;
+}
+
+
+
+
+.content{
+  height: 250px;
+  margin-bottom: 30px;
+}
+.news{
+  float: left;
+  width: 487px;
+  height: 250px;
+  margin-right: 25px;
+}
+.news h3{
+  font-size: 17px;
+  line-height: 1;
+  margin-top: 37px;
+  color: #272727;
+}
+.news ul{
+  margin-top: 23px;
+}
+.news li{
+  line-height: 24px;
+  font-size: 12px;
+  background: url(../img/new.jpg) no-repeat left center;
+  padding-left: 18px;
+  /* text-indent: 5px; */
+}
+.news a{
+  color: #32313a;
+}
+.news span{
+  float: right;
+  font-size: 12px;
+  color: #292842;
+}
+
+
+/* 关于扣丁 */
+.about{
+  float: left;
+  width: 349px;
+  height: 250px;
+  padding: 37px 42px 0 26px;
+  box-sizing: border-box;
+  background-color: #f5f5f5;
+}
+.about h3{
+  line-height: 1;
+  margin-bottom: 24px;
+}
+.about p{
+  line-height: 24px;
+  font-size: 12px;
+  color: #5d5d5d;
+}
+.about p+p{
+  margin-top: 17px;
+  color: #9d9d9d;
+}
+
+
+
+
+
+/* 人才招聘 */
+.people{
+  float: right;
+  width: 240px;
+  height: 250px;
+  padding: 38px 34px 0 26px;
+  box-sizing: border-box;
+  background: #fbfbfb url(../img/flower.jpg) no-repeat right 129px;
+}
+.people h3{
+  line-height: 1;
+  font-size: 18px;
+  color: #545454;
+}
+.people p{
+  line-height: 24px;
+  font-size: 12px;
+  color: #7e7e7e;
+  margin-top: 19px;
+}
+.people img{
+  margin-top: 52px;
+}
+
+
+
+/* 前端开发 */
+.qianduan{
+  height: 288px;
+  overflow: hidden;
+  background-color: #f5f5f5;
+}
+.qianduan>div{
+  height: 196px;
+  width: 1051px;
+  margin-top: 47px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #fbfbfb;
+
+}
+.qianduan>div>img{
+  float: left;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.qianduan>div>div{
+  float: left;
+  margin-top: 25px;
+  margin-right: 35px;
+  
+}
+.qianduan h3{
+  font-size: 18px;
+
+  line-height: 1;
+  color: #3f4442;
+  letter-spacing: 4px;
+}
+.qianduan h3+p{
+
+  font-size: 12px;
+  color: #524e48;
+  margin-top: 23px;
+  margin-bottom: 19px;
+}
+.qianduan span{
+  color: #29ad43;
+  margin-left: 20px;
+  margin-right: 44px;
+}
+.qianduan p+p{
+
+  width: 693px;
+  line-height: 24px;
+  font-size: 12px;
+  margin-top: 0;
+  /* margin-right: 35px; */
+}
+.qianduan a{
+  color: #524e48;
+}
+
+/* 面授名师 */
+.boto{
+  height: 77px;
+  margin: 0 auto 14px;
+  border-bottom: 1px solid #dcdcdc;
+  margin-bottom: 14px;
+}
+.boto h3{
+  float: left;
+  margin-top: 36px;
+  margin-left: 4px;
+  margin-bottom: 19px;
+  color: #3b332b;
+  font-size: 22px;
+}
+.boto a{
+  float: right;
+  margin-top: 39px;
+  color: #ed4819;
+  font-size: 16px;
+}
+
+/* 名师 */
+.teacher{
+  height: 290px;
+  width: 1117px;
+  margin: 14px auto 30px;
+}
+
+.teacher div{
+  width: 262px;
+  height: 290px;
+  margin-left: 8.5px;
+  margin-right: 8.5px;
+  float: left;
+  background-color: #f5f5f5;
+}
+.teacher div img{
+  margin: 18px auto 16px;
+}
+.teacher div h4{
+  text-align: center;
+  line-height: 1;
+  color: #2a272b;
+  margin-bottom: 10px;
+}
+.teacher div .p1{
+  text-align: center;
+  width: 142px;
+  height: 26px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 26px;
+  font-size: 12px;
+  color: #ebeaff;
+  background-color: #5fa5ed;
+}
+.teacher div .p2{
+  margin:8px 14px;
+  padding-left: 3px;
+  padding-right: 3px;
+  line-height: 23px;
+  font-size: 11px;
+  color: #5c6064;
+  border-top: 1px solid #d5dadb;
+}
+/* 尾部 */
+.wei{
+  height: 129px;
+  background-color: #101c23;
+  padding-top: 45px;
+  box-sizing: border-box;
+}
+.wei p{
+  text-align: center;
+  color: #9a9c91;
+  line-height: 24px;
+  font-size: 12px;
+}

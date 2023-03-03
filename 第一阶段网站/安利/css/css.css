@@ -1,0 +1,142 @@
+/* CSS Document */
+* {
+  margin: 0 auto;
+  padding: 0;
+}
+body, ul, li, div, a {
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+/* 万能清除法:在在所有的解决高度塌陷的里面,比较好的一个方法 */
+ul:after {
+  content: "";
+  display: block;
+  clear: both;
+  /*visibility: hidden;*/
+}
+/*版心*/
+headaer, nav, main, footer, section {
+  width: 100%;
+  float: left;
+}
+.type-area {
+  width: 1000px;
+}
+/*头部*/
+header {
+  height: 112px;
+  text-align: center;
+}
+.logo {
+  width: 170px;
+  float: left;
+}
+.logo-f {
+  width: 577px;
+  height: 112px;
+  float: right;
+}
+.logo-f p, form {
+  float: right;
+}
+/*导航栏*/
+nav {
+  height: 56px;
+  line-height: 56px;
+  text-align: center;
+  background-color: #0d345c;
+}
+nav a {
+  color: white;
+}
+nav ul li {
+  width: 166.5px;
+  height: 56px;
+  float: left;
+}
+/*主体*/
+main {
+  height: 382px;
+  background-color: #e5e5e5;
+}
+.banner {
+  margin-left: -42px;
+  width: 1164px;
+}
+.banner-1 {
+  float: left;
+  margin-top: 130px;
+}
+.banner-3 {
+  width: 1000px;
+  height: 382px;
+  float: left;
+}
+.banner-2 {
+  float: right;
+  margin-top: 130px;
+}
+/**/
+section {
+  height: 530px;
+}
+.news {
+  width: 100%;
+  height: 231px;
+  float: left;
+  margin: 33px 0;
+  margin-bottom: 20px;
+  border: solid 0.5px;
+}
+.news-1, .news-2, .news-3 {
+  float: left;
+}
+.news-1 {
+  width: 252px;
+}
+.news-2 {
+  width: 261px;
+}
+.news-3 {
+  width: 379px;
+}
+.news-3 ul {
+    border-left: solid 1px;
+  list-style-type: disc;
+}
+.tupian {
+  width: 100%;
+}
+.tupian-a {
+  width: 306px;
+  height: 215px;
+  float: left;
+  margin-right: 23px;
+  border: solid 1px #000000;
+}
+/*尾部*/
+footer {
+  height: 211px;
+  border-top: solid 1px;
+  background-color: #e5e5e5;
+}
+.footer-min {
+  width: 100%;
+  height: 140px;
+}
+.footer-min ul {
+  width: 25%;
+  float: left;
+  margin-top: 26px;
+}
+.footer-min ul li {
+  margin-bottom: 13px;
+}
+footer p {
+  height: 58px;
+  border-top: solid 1px #ecebeb;
+  text-align: center;
+  line-height: 58px;
+}

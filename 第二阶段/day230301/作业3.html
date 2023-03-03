@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+  var bank =prompt("请输入银行");
+  var rate;
+  switch(bank){
+    case "中国工商银行":
+      // 表达式的值会与结构中的每个 case 的值做比较。如果存在匹配，则与该 case 关联的代码块会被执行
+      rate = 1.9
+      break;
+          // 使用 break 来阻止代码自动地向下一个 case 运行
+    case "中国银行":
+      rate = 1.8
+      break;
+    case "中国建设银行":
+      rate = 2.0
+      break;
+    case "中国农业银行":
+      rate = 2.1
+      break;
+    default:
+      // default 关键词来规定匹配不存在时做的事情
+      rate="请重新输入"
+  }
+  alert("利息为:"+rate)
+</script>
+</html>

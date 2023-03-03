@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+  var num=prompt("请输入一个三位数：")
+  var ge = Math.floor(num/100);  //  5  得到百位数
+  var shi = Math.floor(num%100/10);  // 9  得到十位数
+  var bai = num%100%10  // 9  得到个位数
+  console.log("个位数:"+bai);
+  console.log("十位数:"+shi)
+  console.log("百位数:"+ge)
+</script>
+</body>
+</html>

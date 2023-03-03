@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        span{
+            width: 50px;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+
+</body>
+<script>
+    //到等腰三角形
+    var m = +prompt("输入");
+    //1.打印行
+
+    for (var i = 1; i <= m; i++) {
+        //2.打印空格
+        for (var j = 1; j <= m - i; j++) {
+            document.write(`<span> </span>`);
+        }
+        for (var k = 1; k <= 2 * i - 1; k++) {
+            document.write(`<span>*</span>`);
+        }
+        document.write(`<br>`);
+    }
+    for (var i = m-1; i >= 1; i--) {
+        //2.打印空格
+        for (var j = 1; j <= m - i; j++) {
+            document.write(`<span> </span>`);
+        }
+        for (var k = 1; k <= 2 * i - 1; k++) {
+            document.write(`<span>*</span>`);
+        }
+        document.write(`<br>`);
+    }
+</script>
+</html>

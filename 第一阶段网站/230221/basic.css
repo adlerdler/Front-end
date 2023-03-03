@@ -1,0 +1,45 @@
+/* *{
+	padding: 0;
+	margin:  0 auto;
+} */
+body, ul, li, div, a {
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+	font: 12px/2 "微软雅黑";
+}
+
+a{
+	color: #393939;
+}
+img{
+	vertical-align: top;
+	
+	}
+h2,b{
+	font-weight: normal;
+}
+i{
+	font-style: normal;
+}
+input{
+	outline: none;
+}
+button{
+	cursor: pointer;
+	/* 改变指针的样式为手的方式 */
+}
+textarea{
+	resize: none;
+	z
+}
+/* 万能解决高度塌陷法 */
+.clear::after{
+	content: "" ;
+	display: block;
+	clear: both;
+	overflow: hidden;
+	visibility: hidden;
+	
+}

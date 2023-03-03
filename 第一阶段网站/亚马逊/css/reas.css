@@ -1,0 +1,59 @@
+/* CSS Document */
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+body, ul, li, div, a {
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+a{
+	/* color: #393939; */
+}
+input{
+	outline: none;
+}
+img{
+	vertical-align: top;
+	
+	}
+i{
+	font-style: normal;
+}
+button{
+	cursor: pointer;
+	/* 改变指针的样式为手的方式 */
+}
+/* 万能清除法:在在所有的解决高度塌陷的里面,比较好的一个方法 */
+.clear-fix::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    clear: both;
+    visibility: hidden;
+}
+/* 背景图 */
+/* body {
+    background: url("/img/body.jpg") no-repeat center fixed;
+    background-size: 100% 100%;
+} */
+/* 页面出现100% */
+body,html{
+	height: 100%;
+}
+.clear {
+    clear: both;
+}
+
+.flot-l {
+    float: left;
+}
+
+.flot-r {
+    float: right;
+}

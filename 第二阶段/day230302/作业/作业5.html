@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+  var n=prompt("请输入数字n:");
+
+  var flag=true;
+  for (var i=2;i<n;i++){
+    if (n%i==0){
+      flag=false;
+      // break;
+    }
+    if (flag==true){
+      document.write(`${n}是素数`);
+    }else {
+      document.write(`${n}不是素数`);
+    }
+  }
+</script>
+</html>

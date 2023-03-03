@@ -1,0 +1,22 @@
+/* 重置样式 */
+*{
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+}
+img{
+  display: block;
+}
+li{
+  list-style: none;
+}
+h1,h2,h3{
+  font-weight: 500;
+}
+
+.center{
+  width: 1102px;
+  margin: 0 auto;
+}

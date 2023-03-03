@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+    for (var i = 0; i <= 1000; i++) {
+        for (var p = 0; p <= 100; p++) {
+            for (var l = 0; l <= 10; l++) {
+                var o = 100 - i - p - l;
+                if (i * 0.1 + p * 1 + l * 10 + o * 50 == 100) {
+                    document.write(`人民币有${i}张1毛的${p}张1元${l}张10元的${o}张50元<br/>`);
+                }
+            }
+        }
+    }
+</script>
+</html>

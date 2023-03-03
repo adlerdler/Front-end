@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+
+    var day = 1;
+
+
+    while (day <= 7) {
+        // document.write(`第${day}天`)
+        var m = 1;
+        while (m <= 3) {
+            // document.write(`星期${day}第${m}次吃饭第${m}次洗脚<br/>`);
+            // document.write(`第${m}次洗脚`);
+            var n = 1;
+            while (n <= 5) {
+                document.write(`星期${day}第${m}次吃饭第${m}次洗脚中的第${n}次戳脚<br/>`);
+                n++;
+            }
+            m++;
+        }
+        day++;
+    }
+
+
+</script>
+</html>

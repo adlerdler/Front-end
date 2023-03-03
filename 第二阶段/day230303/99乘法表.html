@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <style>
+    span{
+      display: inline-block;
+      width: 70px;
+      background: aquamarine;
+      border:solid 1px salmon;
+      text-align: center;
+
+    }
+  </style>
+</head>
+<body>
+
+</body>
+<script>
+  var m=prompt("打印99乘法表");
+
+  for (var i = 1; i <= m; i++) {
+    for (var j = 1; j <= i; j++) {
+      document.write(`<span>${i}x${j}=${i*j}</span>`);
+    }
+    document.write("<br />");
+  }
+</script>
+</html>

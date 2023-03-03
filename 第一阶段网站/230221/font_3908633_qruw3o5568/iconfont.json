@@ -1,0 +1,79 @@
+{
+  "id": "3908633",
+  "name": "支付宝",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "16613124",
+      "name": "personal",
+      "font_class": "personal",
+      "unicode": "e679",
+      "unicode_decimal": 59001
+    },
+    {
+      "icon_id": "16616101",
+      "name": "add",
+      "font_class": "add",
+      "unicode": "e689",
+      "unicode_decimal": 59017
+    },
+    {
+      "icon_id": "16617390",
+      "name": "scan",
+      "font_class": "scan",
+      "unicode": "e68b",
+      "unicode_decimal": 59019
+    },
+    {
+      "icon_id": "16617400",
+      "name": "pay",
+      "font_class": "pay",
+      "unicode": "e68c",
+      "unicode_decimal": 59020
+    },
+    {
+      "icon_id": "16617414",
+      "name": "card",
+      "font_class": "card",
+      "unicode": "e68e",
+      "unicode_decimal": 59022
+    },
+    {
+      "icon_id": "16618578",
+      "name": "address book",
+      "font_class": "addressbook",
+      "unicode": "e6b4",
+      "unicode_decimal": 59060
+    },
+    {
+      "icon_id": "16618661",
+      "name": "address",
+      "font_class": "address",
+      "unicode": "e6b8",
+      "unicode_decimal": 59064
+    },
+    {
+      "icon_id": "16619136",
+      "name": "more",
+      "font_class": "more",
+      "unicode": "e6cb",
+      "unicode_decimal": 59083
+    },
+    {
+      "icon_id": "16619141",
+      "name": "payment",
+      "font_class": "payment",
+      "unicode": "e6cd",
+      "unicode_decimal": 59085
+    },
+    {
+      "icon_id": "16619405",
+      "name": "search",
+      "font_class": "search",
+      "unicode": "e6d4",
+      "unicode_decimal": 59092
+    }
+  ]
+}

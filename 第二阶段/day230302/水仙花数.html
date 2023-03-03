@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+  var i=100;
+
+  while (i<1000){
+    var  ge=i%10;
+    var  shi=parseInt(i/10)%10;
+    var  bai=parseInt(i/100);
+    if (ge*ge*ge+shi*shi*shi+bai*bai*bai==i){
+      document.write(i+`<br>`);
+    }
+    i++;
+  }
+</script>
+</html>

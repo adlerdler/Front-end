@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+  var  n=prompt("请输入一个数字：");
+  var i=2;
+  while (i<=n-1){
+    if (n%i==0){
+      document.write(`<p>${n}不是质数</p>`);
+      document.write(`<h2>${n}=${i}x${n/i}</h2>`);
+      break;
+    }
+    i++;
+  }
+  if (i==n){
+    document.write(`${n}是质数`)
+  }
+</script>
+</html>

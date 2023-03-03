@@ -1,0 +1,99 @@
+* {
+	margin: 0 auto;
+	padding: 0;
+}
+
+body,
+html {
+	height: 100%;
+}
+li{
+	list-style: none;
+}
+header {
+	width: 100%;
+	height: 80px;
+	background-color: #f47d31;
+	text-align: center;
+}
+
+h1 {
+	color: #FFFFFF;
+	font: 54px "微软雅黑";
+	line-height: 80px;
+}
+
+nav {
+	width: 25%;
+	height: calc(100% - 125px);
+	float: left;
+	text-align: center;
+	background-color: #8888;
+	color: #FFFFFF;
+}
+
+nav ul li {
+	text-align: left;
+	width: 80%;
+	height: 42px;
+	line-height: 42px;
+	border-bottom: solid 2px #FFFFFF;
+
+}
+
+nav a {
+	text-decoration: none;
+	padding-left: 12px;
+	line-height: 32px;
+	color: #F47D31;
+}
+
+main {
+	width: 50%;
+	float: left;
+	height: calc(100% - 125px);
+	background-color: #8888;
+	/* padding-bottom: 5px; */
+	/* padding-bottom: 10px; */
+}
+
+main article{
+	width: 100%;
+	height: calc(50% - 15px);
+	background-color: #FFFFFF;
+	margin-top: 10px;
+	}
+main article div{
+	/* width: 100%; */
+	text-align: center;
+	height: 30px;
+	line-height: 30px;
+	font-size: 14px;
+	color: #FFFFFF;
+	background-color: #F47D31;
+	margin:10px 10px;
+	padding: 10px;
+}
+
+aside {
+	width: 25%;
+	height: calc( 100%  - 125px);
+	background-color: #8888;
+	text-align: center;
+	color: #FFFFFF;
+	float: left;
+}
+h2{
+	margin-top: 12px;
+}
+aside p{
+	width: 90%;
+	margin-top: 20px;
+}
+footer{
+	height: 45px;
+	background-color: #F47D31;
+	clear: both;
+	text-align: center;
+	line-height: 45px;
+}
